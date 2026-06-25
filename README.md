@@ -7,7 +7,7 @@ DR2 with mouse steering and bypassing input smoothing
 pip install vgamepad pynput pywin32
 ```
 # Dirt Rally 2 gamepad thing
-normally gamepad will receive a smoothing and also a bit of assist to keep the car straight etc, which make the wheel feels speed dependent(the faster you go the less the sensitivity applied), while not neccecarily add much of a latency, it can feel really annoying when counter steering with input that in this case weren't actually a gamepad, to fix this you can manually add ViGem's VID and PID into Dirt rally 2's input xml and set your input to wheel
+normally gamepad will receive a smoothing and also a bit of assist to keep the car straight etc, which make the wheel feels speed dependent(the faster you go the less the sensitivity applied), while not neccecarily add much of a latency, it can feel really annoying when counter steering with input that in this case weren't actually a gamepad, to fix this you can manually add ViGem's VID and PID into Dirt rally 2's input xml and set your input to wheel or custom generic device(which can be toggeled for gamepad as normal but bypasses smoothing)
 
 - *Note: you need to fire the source of the input device or it wont appear, as obvious as it sounds, just in case some poor soul forgot abt it*
 # Adding your own Input xml
